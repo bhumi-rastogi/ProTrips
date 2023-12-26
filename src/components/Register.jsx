@@ -44,7 +44,7 @@ const Submit = () => {
         <p className="save">Registration successful!</p>
       )}
       <form onSubmit={save}>
-        <h2>Form</h2>
+        <h1>Form</h1>
         {Object.keys(data).map((i) => (
           <label key={i}>
             {i.charAt(0).toUpperCase() + i.slice(1)}:

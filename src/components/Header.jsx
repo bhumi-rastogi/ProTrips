@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => (
-  <nav className="navbar">
+  <nav className="nav">
     <div className="navitem">
       <Link to="/" className="nav-link">Kalvium💖</Link>
     </div>
